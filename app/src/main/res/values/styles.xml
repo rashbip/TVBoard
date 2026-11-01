@@ -1,0 +1,33 @@
+<resources>
+    <style name="TvKey" parent="android:Widget.Button">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginStart">3dp</item>
+        <item name="android:layout_marginEnd">3dp</item>
+        <item name="android:background">@drawable/bg_tv_key</item>
+        <item name="android:textColor">@color/color_tv_key_text</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:stateListAnimator">@animator/tv_focus_scale</item>
+        <item name="android:padding">0dp</item>
+    </style>
+
+    <style name="TvActionKey" parent="android:Widget.Button">
+        <item name="android:layout_width">36dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginEnd">4dp</item>
+        <item name="android:background">@drawable/bg_tv_action_key</item>
+        <item name="android:textColor">@color/color_tv_key_text</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:stateListAnimator">@animator/tv_focus_scale</item>
+        <item name="android:padding">0dp</item>
+    </style>
+</resources>
